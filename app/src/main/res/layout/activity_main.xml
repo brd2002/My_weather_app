@@ -31,6 +31,7 @@
         android:layout_marginTop="8dp"
         android:drawableLeft="@drawable/loctaion"
         android:drawablePadding="15dp"
+        android:text="City name "
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/searchView"
         app:layout_constraintStart_toStartOf="@+id/searchView"
@@ -166,6 +167,7 @@
                     android:id="@+id/humidity"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/black"
                     android:gravity="center"
                     android:text="0.0%" />
 
@@ -175,6 +177,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
                     android:gravity="center"
+                    android:textColor="@color/black"
                     android:text="Humidity" />
             </LinearLayout>
 
@@ -316,7 +319,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@tools:sample/avatars"
+
                     app:srcCompat="@drawable/humidity" />
 
                 <TextView
